@@ -1,0 +1,22 @@
+[package]
+name = "hinoki"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+[dependencies]
+wgpu = { git = "https://github.com/gfx-rs/wgpu" }
+imgui = "0.7.0"
+winit = "0.25.0"
+imgui-winit-support = { version = "0.7.1", features = [
+    "winit-25",
+], default-features = false }
+futures = { version = "0.3.17", features = ["executor", "thread-pool"] }
+env_logger = "0.9.0"
+bytemuck = { version = "1.7.2", features = ["derive"] }
+euclid = "0.22.6"
+priority-queue = "1.2.0"
+profiling = { version = "1.0.3" }
+crossbeam-deque = "0.8.1"
+num_cpus = "1.13.0"
+parking_lot = "0.11.2"
