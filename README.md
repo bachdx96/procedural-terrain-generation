@@ -15,7 +15,7 @@ Procedure Terrain Generation. This project is a toy project of mine that generat
 
 ## To be implemented
 
-✅ Better stitching between different chunks
+✅ Better stitching between different chunks using Transvoxel algorithm
 
 ✅ Better render shader
 
